@@ -35,4 +35,4 @@ Este projeto é de uso pessoal e tem o objetivo de aprendizado. Você pode utili
 
 ---
 
-Feito com 💻 por [Seu Nome]
+Feito com 💻 por Ana Glebia
