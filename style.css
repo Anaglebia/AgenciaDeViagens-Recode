@@ -224,3 +224,126 @@ button img {
     height: 20px;
   }
 }
+
+
+/* ___________________________________#####3css */
+
+
+
+
+
+
+
+
+
+
+/* Destinos */
+.destinos {
+  padding: 2rem 0;
+  background: #f9f9f9;
+}
+
+.destinos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.destino-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.destino-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.destino-card h3 {
+  color: #000;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.destino_h2 {
+  color: #000;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.destino-card p {
+  color: #000;
+  padding: 0 1rem 1rem;
+}
+
+/* Sobre */
+.sobre {
+  padding: 2rem 0;
+  background: #fff;
+  text-align: center;
+}
+.sobre h2 {
+  margin: 1rem 0;
+  color: #000;
+}
+.faleconosco{
+  margin: 1rem 0;
+  color: #000;
+}
+.sobre p {
+  margin: 1rem 0;
+  color: #000;
+}
+
+/* Contato */
+.contato {
+  padding: 2rem 0;
+  background: #f9f9f9;
+}
+
+.contato form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button.btn {
+  display: block;
+  width: 100%;
+  background: #4CAF50;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background: #45a049;
+}
+
+
